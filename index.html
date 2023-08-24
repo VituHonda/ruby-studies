@@ -8,11 +8,142 @@
 <body>
     
     <h1>Código para alterar nome da branch master para main</h1>
-
     <p>
         git branch -m master main
         git push -u origin main
     </p>
 
+    <h2>Configurando o git: informações credenciais</h2>
+    <!-- --local pode ser substituido por --global caso queira configurar para toda a maquina-->
+    <p>
+        git config --local user.name "Seu nome aqui"
+        git config --local user.email "seu@email.aqui"
+    </p>
+
+    <h2>Comando para ver o status dos arquivos a serem salvos</h2>
+    <p>
+        git status
+    </p>
+
+    <h2>Comando para adicionar arquivos para serem salvos</h2>
+    <p>
+        <!-- caso queira adicionar um arquivo específico -->
+        git add nomeDoArquivo
+        <!-- caso queira adicionar todos os arquivos modificados -->
+        git add *
+    </p>
+
+    <h2>Comando para comitar</h2>
+    <p>
+        git commit -m "mensagem do commit"
+    </p>
+
+
+    <h2>Comando para ver histórico de commits</h2>
+    <p>
+        git log
+        <!-- commit: hash do commit (ramo origem -> ramo destino
+             Nome do autor
+             Data do commit
+             Mensagem) -->
+    </p>
+
+    <h2>Comando para verificar email</h2>
+    <p>
+        git config user.email
+    </p>
+
+    <h2>Comando para verificar nome de usuario</h2>
+    <p>
+        git config user.name
+    </p>
+
+    <h2>Comando que mostra o historico de commits com cada commit em uma linha</h2>
+    <p>
+        git commit --oneline
+    </p>
+
+    <h2>LINK para mais comandos</h2>
+    <p>
+        https://devhints.io/git-log
+    </p>
+
+    <h2>Comando para listar todos os repositórios remotos que o repositorio local conhece</h2>
+    <p>
+        git remote
+    </p>
+
+    <h2>Comando para adicionar repositorios remotos</h2>
+    <p>
+        <!-- Pode ser adicionado apos o add um caminho para a pasta do outro repositorio, um repositorio no github, um caminho pela rede -->
+        git remote add nomeDoArquivo
+        <!-- OBS ao clonar repositórios o repositorio provavelmente ja estara na lista de repositorios remotos  -->
+    </p>
+
+    <h2>Comando para criar pastar no terminal windows</h2>
+    <p>
+        mkdir nomeDaPasta
+    </p>
+
+    <h2>Comando para clonar repositorios</h2>
+    <p>
+        git clone caminho/url do repositorio
+    </p>
+
+    <h2>Comando para empurrar os dados para outro repositorio</h2>
+    <p>
+        git push localDeOrigem localDeChegada
+        exemplo: git push origin main
+    </p>
+
+    <h2>Como puxar os dados de um repositorio</h2>
+    <p>
+        git pull nomeDoRepositorioRemoto nomeDaBranchDoRepositorioLocal
+    </p>
+
+    <h2>Comando para renomear repositorios remotos</h2>
+    <p>
+        git remote rename nomeAtual nomeDesejado
+    </p>
+
+    <h2>Comando para entrar em um pasta</h2>
+    <p>
+        cd nomeDaPasta
+    </p>
+
+    <h2>Comando para voltar uma pasta</h2>
+    <p>
+        cd ../
+    </p>
+
+    <h2>Comando para criar pasta repositorio pura</h2>
+    <p>
+        git init --bare
+    </p>
+
+    <h2>Comando para verificar de onde um repositorio puxa e para onde envia</h2>
+    <p>
+        git congif -v
+    </p>
+
+    <h2>Comando para verificar a branch em que esta</h2>
+    <p>
+        git branch
+    </p>
+
+    <h2>Mudar o nome da branch</h2>
+    <p>
+        git branch nomeDaBranch
+    </p>
+
+    <h2>Comando para briar um branch e ja entrar nele</h2>
+    <p>
+        git branch -b nomeDaBranch
+    </p>
+
+    <h2>Juntando Branches</h2>
+    <p>
+        git merge nomeDaBranch com a qual quer dar merge
+    </p>
 </body>
 </html>
