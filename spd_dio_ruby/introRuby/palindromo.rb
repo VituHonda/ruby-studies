@@ -10,3 +10,10 @@ if teste == teste2
 else 
     p "Nao palindromo"
 end
+
+
+# Outra opçao
+
+def palindromo?(palavra)
+    palavra.downcase = palavra.downcase.reverse
+end
