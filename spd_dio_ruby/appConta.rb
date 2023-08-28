@@ -29,11 +29,29 @@ until ligado == 0
     opcao = gets.to_i
 
     until opcao == 1 || opcao == 2 || opcao == 3
-    
         puts "Digite novamente"
-        opcao = gets.to_i
-    
+        opcao = gets.to_i 
     end
 
+    conta = Conta.new
+
+    case opcao
+        when 1
+
+            conta.saldo
+
+        when 2
+
+            puts "Informe o valor que será depositado"
+            valor = gets.to_i
+            conta.deposita(valor)
+            
+        when 3
+
+            puts "Informe o valor que será sacado"
+            valor = gets.to_i
+            conta.saca(valor)
+
+    end
 
 end

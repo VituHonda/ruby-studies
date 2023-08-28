@@ -5,11 +5,6 @@ class Conta
         puts @@valor
     end
     
-    private
-    def setValor(valor)
-        @@valor = valor
-    end
-    
     def deposita(valor)
         @@valor += valor
     end
@@ -21,4 +16,10 @@ class Conta
     def saldo()
         getValor
     end
+
+    private
+    def setValor(valor)
+        @@valor = valor
+    end
+    
 end
