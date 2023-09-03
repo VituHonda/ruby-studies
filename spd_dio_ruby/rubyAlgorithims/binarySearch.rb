@@ -9,10 +9,10 @@ l = 0
 r = lista.length - 1
 
 while l <= r
-    m = l = (r+l)/2
+    m = l + (r+l)/2
 
     if lista[m] == num
-        puts "o numero esta na posicao #{m}"    
+        puts "o numero esta na posicao #{m+1}"    
     end
 
     if lista[m] < num 
