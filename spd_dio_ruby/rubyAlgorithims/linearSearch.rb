@@ -1,5 +1,5 @@
 # Linear Search 
-# Solução 1 linear search
+# Solução 1 linear search - palavras
 lista = ["batata", "ovo", "queijo"]
 
 puts "Informe a palavra que deseja pesquisar na lista: "
