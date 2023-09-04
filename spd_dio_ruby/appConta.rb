@@ -2,6 +2,7 @@ require "./desafioContaBanco.rb"
 
 ligado = 1
 opcao = 0
+conta = Conta.new
 
 until ligado == 0
 
@@ -33,7 +34,7 @@ until ligado == 0
         opcao = gets.to_i 
     end
 
-    conta = Conta.new
+  
 
     case opcao
         when 1

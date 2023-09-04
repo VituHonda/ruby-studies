@@ -1,25 +1,27 @@
 class Conta
-    @@valor = 0
+    def initialize()
+        @valor = 100
+    end
 
     def getValor
-        puts @@valor
+        puts @valor
     end
     
     def deposita(valor)
-        @@valor += valor
+        @valor += valor
     end
 
     def saca(valor)
-        @@valor -=valor
+        @valor -= valor
     end
 
     def saldo()
-        getValor
+        puts @valor
     end
 
     private
     def setValor(valor)
-        @@valor = valor
+        @valor = valor
     end
     
 end
