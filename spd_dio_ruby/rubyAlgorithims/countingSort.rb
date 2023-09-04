@@ -1,4 +1,4 @@
-lista = [1,1,1]
+lista = [1,3,1,4,1,1,3,2]
 contador = [0,0,0,0,0,0,0,0,0,0]
 p "lista inicial com numero de 0 a 5 #{lista}"
 
@@ -30,15 +30,18 @@ until i == lista.length
     end
 end
 
+
 ordem = []
+i = 0
 
 until i == contador.length
 
-    while contador[i] == 0
-        ordenado.push(i)
+    while contador[i] != 0
+        ordem.push(i)
         contador[i] -= 1
     end
     i += 1
+
 end
 
 
