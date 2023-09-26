@@ -1,4 +1,4 @@
-require "./desafioContaBanco.rb"
+require "./DesafioContaBanco.rb"
 
 ligado = 1
 opcao = 0

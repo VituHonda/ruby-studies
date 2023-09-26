@@ -1,4 +1,4 @@
-#sintaxe hash
+*#sintaxe hash
 # hash = {}
 # hash = Hash.new
 
