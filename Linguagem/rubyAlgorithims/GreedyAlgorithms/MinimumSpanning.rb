@@ -1,4 +1,0 @@
-def self.minSum
-
-
-end
