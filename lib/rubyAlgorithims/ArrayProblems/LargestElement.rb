@@ -1,15 +1,22 @@
-def self.largest(lista)
+class LargestElement
+  def largest(lista)
 
-  sort = lista.sort
+    if lista.length < 3
 
-  m = sort[sort.length-1]
-  p = sort[sort.length-2]
-  a = sort[sort.length-3]
+      return "Invalid Input"
 
-  p "#{m}, #{p}, #{a}"
+    else
+
+      sort = lista.sort
+
+      m = sort[sort.length-1]
+      p = sort[sort.length-2]
+      a = sort[sort.length-3]
+
+      "#{m}, #{p}, #{a}"
+
+    end
+
+  end
 
 end
-
-arr = [10,4,3,50,23,90]
-
-largest(arr)
