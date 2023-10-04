@@ -1,17 +1,20 @@
-def self.reorder(arr, k)
-  i = 0
+class Reorder
+  def reorder(arr, k)
+    if arr.length < 1
+      return "Invalid Input"
+    else
 
-  until i >= k
-    temp = arr[arr.length-1]
-    arr.pop
-    arr.unshift(temp)
-    i += 1
-  end
+      i = 0
 
-  p arr
+      until i >= k
+        temp = arr[arr.length-1]
+        arr.pop
+        arr.unshift(temp)
+        i += 1
+      end
+      p arr
+    end
+
+    end
 
 end
-
-arr = [1,2,3,4,5,6,7,8,9,10]
-
-reorder(arr,3)
