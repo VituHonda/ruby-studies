@@ -21,11 +21,4 @@ describe Reorder do
     arr1 = [6,7,8,9,10,1,2,3,4,5]
     expect(func.reorder(arr,5)).to eq(arr1)
   end
-
-
-
-
-
 end
-
-
