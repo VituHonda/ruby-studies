@@ -1,19 +1,29 @@
 # Linear Search 
 # Solução 1 linear search - palavras
-lista = ["batata", "ovo", "queijo"]
 
-puts "Informe a palavra que deseja pesquisar na lista: "
-palavra = gets.chomp
+class LinearSearch
 
-cont = 0
-until cont == lista.length
-    if palavra == lista[cont]
-        puts "A palavra #{palavra} está dentro da nossa lista na posição #{cont}"
-        break
+    def procura(lista, palavra)
+
+        if lista.length < 1
+            return "Lista vazia"
+        end
+
+        cont = 0
+        until cont == lista.length
+            if palavra == lista[cont]
+                return cont
+                break
+            end
+            cont += 1
+        end
+
+        if cont == lista.length
+            return "Não encontramos a palavra"
+        end
+
     end
-    cont += 1
+
 end
 
-if cont == lista.length
-    puts "Não encontramos a palavra"
-end
+
