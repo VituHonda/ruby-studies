@@ -1,8 +1,9 @@
-class Graph
+class MinimumSpanning
   def initialize(vertices)
     @vertices = vertices
     @edges = []
   end
+
 
   def add_edge(u, v, w)
     @edges << [u, v, w]
@@ -33,15 +34,3 @@ class Graph
     result
   end
 end
-
-# Exemplo de uso
-graph = Graph.new(4)
-graph.add_edge(0, 1, 10)
-graph.add_edge(0, 2, 6)
-graph.add_edge(0, 3, 5)
-graph.add_edge(1, 3, 15)
-graph.add_edge(2, 3, 4)
-
-mst = graph.kruskal_mst
-puts "Arestas da Árvore de Abrangência Mínima (MST):"
-mst.each { |u, v, w| puts "#{u} - #{v}: #{w}" }
