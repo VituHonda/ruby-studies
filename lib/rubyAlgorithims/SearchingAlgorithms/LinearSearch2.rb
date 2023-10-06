@@ -1,23 +1,36 @@
 
 #Solução 2 linear search numeros
-lista = [3,8,25,18,30,20,40]
 
-puts "Digite o número inteiro que procura"
-numero = gets.to_i
-contador = 0
-achou = false
-posicao = 0
+class LinearSearch2
 
-lista.each do |number|
-    contador += 1
-    if number == numero
-        achou = true
-        posicao = contador
+    def procura(lista, numero)
+
+        if(lista.length < 1)
+            return 'Lista vazia'
+        end
+
+        contador = 0
+        achou = false
+        posicao = 0
+
+        lista.each do |number|
+            if number == numero
+                achou = true
+                posicao = contador
+            end
+            contador += 1
+        end
+
+        if achou == true
+            return posicao
+        else
+            return "Número não encontrado"
+        end
+
     end
+
+
 end
 
-if achou == true
-    puts "numero encontrado na posição #{posicao}"
-else
-    puts "numero nao encontrado"
-end
+
+
