@@ -1,33 +1,32 @@
-def self.pangram(string)
+class StringPangram
 
-  alfabeto = ["a","b","c","d","e","h","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+  def pangram(string)
 
-  refactor = string.downcase.delete(' ')
-  cList = refactor.chars.uniq
+    alfabeto = ["a","b","c","d","e","h","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
-  for char in cList
-    i = 0
+    refactor = string.downcase.delete(' ')
+    cList = refactor.chars.uniq
 
-    until i >= alfabeto.length
+    for char in cList
+      i = 0
 
-      if char == alfabeto[i]
-        alfabeto.delete(alfabeto[i])
+      until i >= alfabeto.length
+
+        if char == alfabeto[i]
+          alfabeto.delete(alfabeto[i])
+        end
+
+        i += 1
       end
 
-    i += 1
     end
+
+    return alfabeto
 
   end
 
-  return alfabeto
+
+
+
 
 end
-
-string1 = "welcome to geeksforgeeks"
-string2 = "The quick brown fox jumps"
-
-r1 = pangram(string1)
-r2 = pangram(string2)
-
-p r1
-p r2
