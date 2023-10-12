@@ -19,8 +19,4 @@ describe JumpSearch do
     expect(jump.jump(test, 8)).to eq('Invalid list')
   end
 
-
-
-
-
 end
