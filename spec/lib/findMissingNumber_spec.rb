@@ -15,5 +15,4 @@ describe FindMissingNumber do
     expect(find.find(list1,7)).to eq('The missing number between 1 and 8 is 3')
   end
 
-
 end
