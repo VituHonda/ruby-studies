@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="feat(prima): criando primeira gem">
+    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="test(selectsort): made tests for select sort #72">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linguagem/CreatingGems/prima/lib/prima.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linguagem/CreatingGems/prima/prima-0.0.1.gem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linguagem/CreatingGems/prima/prima.gemspec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Ruby Class" />
         <option value="Ruby File" />
       </list>
     </option>
@@ -59,25 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vitor/Documentos/Git/Ruby&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/vitor/Documentos/Git/Ruby/spec/lib/agl1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/lib/agl1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/lib" />
       <recent name="$PROJECT_DIR$/Linguagem/rubyAlgorithims/SortingAlgorithms" />
       <recent name="$PROJECT_DIR$/Linguagem/rubyAlgorithims/SearchingAlgorithms" />
     </key>
@@ -249,6 +251,8 @@
       <workItem from="1695900644921" duration="46000" />
       <workItem from="1696353975011" duration="900000" />
       <workItem from="1696408016942" duration="50000" />
+      <workItem from="1696588567134" duration="17521000" />
+      <workItem from="1697132896885" duration="8402000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(Linguagem): chaging names to camel case">
       <option name="closed" value="true" />
@@ -402,7 +406,223 @@
       <option name="project" value="LOCAL" />
       <updated>1695845108452</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refator(binarysearch): altered the code to be able to make tests and to correct a logic problem">
+      <option name="closed" value="true" />
+      <created>1696594868906</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696594868906</updated>
+    </task>
+    <task id="LOCAL-00021" summary="test(binarysearch): addedd tests for the binarysearch class #50">
+      <option name="closed" value="true" />
+      <created>1696594922215</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696594922215</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refactor(linearsearch): adjust code to be able to make tests #49">
+      <option name="closed" value="true" />
+      <created>1696597009180</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696597009180</updated>
+    </task>
+    <task id="LOCAL-00023" summary="test(linearsearch): added tests for linear search #48">
+      <option name="closed" value="true" />
+      <created>1696597029911</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696597029911</updated>
+    </task>
+    <task id="LOCAL-00024" summary="refactor(linearsearch2): adjust code to be able to make tests #59">
+      <option name="closed" value="true" />
+      <created>1696597731231</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696597731231</updated>
+    </task>
+    <task id="LOCAL-00025" summary="test(linearsearch2): made tests for linearsearch2">
+      <option name="closed" value="true" />
+      <created>1696597752748</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696597752748</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor(countingsort): adjust code to be able to make tests #61">
+      <option name="closed" value="true" />
+      <created>1696599503138</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696599503138</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test(countingsort): added tests for counting sort #60">
+      <option name="closed" value="true" />
+      <created>1696599562208</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1696599562208</updated>
+    </task>
+    <task id="LOCAL-00028" summary="refactor(stringpangram): adjusted code to be able to make tests #57">
+      <option name="closed" value="true" />
+      <created>1696600134621</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1696600134621</updated>
+    </task>
+    <task id="LOCAL-00029" summary="test(stringpangram): made tests for the string pangram #57">
+      <option name="closed" value="true" />
+      <created>1696600154997</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1696600154998</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactor(findfuture): adjust code to be able to make tests #65">
+      <option name="closed" value="true" />
+      <created>1696606264910</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1696606264910</updated>
+    </task>
+    <task id="LOCAL-00031" summary="test(findfuture): made tests for the class #64">
+      <option name="closed" value="true" />
+      <created>1696606293495</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1696606293496</updated>
+    </task>
+    <task id="LOCAL-00032" summary="refactor(bubblesort): adjust code to be able to make tests #53">
+      <option name="closed" value="true" />
+      <created>1696609341283</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1696609341283</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test(bubblesort): added tests to see if the class respond well to right parameters and wrong ones #52">
+      <option name="closed" value="true" />
+      <created>1696609379651</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1696609379651</updated>
+    </task>
+    <task id="LOCAL-00034" summary="refactor(countchar): adjust code to be possible to make tests #55">
+      <option name="closed" value="true" />
+      <created>1696610172933</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1696610172933</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test(countchar): made tests to check if the method was counting right #54">
+      <option name="closed" value="true" />
+      <created>1696610212313</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1696610212313</updated>
+    </task>
+    <task id="LOCAL-00036" summary="refactor(minimumspanning): adjust the code to be able to make tests #63">
+      <option name="closed" value="true" />
+      <created>1696612594816</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1696612594816</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62">
+      <option name="closed" value="true" />
+      <created>1696612638301</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1696612638301</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactor(project): put all algorithms from phase 1 into a directory">
+      <option name="closed" value="true" />
+      <created>1697133243064</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697133243065</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat(jumpsearch): made code for jump search">
+      <option name="closed" value="true" />
+      <created>1697137502522</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1697137502522</updated>
+    </task>
+    <task id="LOCAL-00040" summary="test(jumpsearch): add jump search tests #69">
+      <option name="closed" value="true" />
+      <created>1697137917297</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1697137917297</updated>
+    </task>
+    <task id="LOCAL-00041" summary="feat(findmissingnumber): made the class FMN">
+      <option name="closed" value="true" />
+      <created>1697139139957</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1697139139957</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test(findmissingnumber): made tests for find missing number class #70">
+      <option name="closed" value="true" />
+      <created>1697139251613</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1697139251613</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat(fibonaccisearch): add fibonacci search code #3">
+      <option name="closed" value="true" />
+      <created>1697140011152</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1697140011152</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test(fibonaccisearch): create tests to fibonacci search #71">
+      <option name="closed" value="true" />
+      <created>1697140075433</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1697140075433</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat(selectsort): made select sort code #4">
+      <option name="closed" value="true" />
+      <created>1697141549210</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141549210</updated>
+    </task>
+    <task id="LOCAL-00046" summary="test(selectsort): made tests for select sort #72">
+      <option name="closed" value="true" />
+      <created>1697141597360</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141597360</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,23 +640,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor(Linguagem): chaging names to camel case" />
-    <MESSAGE value="feat(minsum): adding min sum algorithm" />
-    <MESSAGE value="feat(maxarraysum): adding max array sum algorithm" />
-    <MESSAGE value="feat(minproductsubset): adding min product subset algorithm" />
-    <MESSAGE value="feat(sum3stack): adding sum 3 first number of a stack algorithm" />
-    <MESSAGE value="feat(stringpangram): adding string pangram algorithm" />
-    <MESSAGE value="feat(countchar): adding count char algorithm" />
-    <MESSAGE value="feat(last3number): adding largest 3 numbers algorithm" />
-    <MESSAGE value="feat(reorderktimes): adding reorder k amount of times algorithm" />
-    <MESSAGE value="feat(Hero): adding class hero with constructor" />
-    <MESSAGE value="test(Hero): creating tests to see if the hero has a sword and if he has more than 1000 hp" />
-    <MESSAGE value="feat(factorial): adding a factorial class to train rspec" />
-    <MESSAGE value="test(factorial): creating tests to factorial and learning some syntax of rspec" />
-    <MESSAGE value="feat(heroproject): creating a rails project and implementing rspec to do tests" />
-    <MESSAGE value="feat(heroproject): creating tests" />
-    <MESSAGE value="deleting tests" />
-    <MESSAGE value="feat(prima): criando primeira gem" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(prima): criando primeira gem" />
+    <MESSAGE value="refactor(linearsearch): adjust code to be able to make tests #49" />
+    <MESSAGE value="test(linearsearch): added tests for linear search #48" />
+    <MESSAGE value="refactor(linearsearch2): adjust code to be able to make tests #59" />
+    <MESSAGE value="test(linearsearch2): made tests for linearsearch2" />
+    <MESSAGE value="refactor(countingsort): adjust code to be able to make tests #61" />
+    <MESSAGE value="test(countingsort): added tests for counting sort #60" />
+    <MESSAGE value="refactor(stringpangram): adjusted code to be able to make tests #57" />
+    <MESSAGE value="test(stringpangram): made tests for the string pangram #57" />
+    <MESSAGE value="refactor(findfuture): adjust code to be able to make tests #65" />
+    <MESSAGE value="test(findfuture): made tests for the class #64" />
+    <MESSAGE value="refactor(bubblesort): adjust code to be able to make tests #53" />
+    <MESSAGE value="test(bubblesort): added tests to see if the class respond well to right parameters and wrong ones #52" />
+    <MESSAGE value="refactor(countchar): adjust code to be possible to make tests #55" />
+    <MESSAGE value="test(countchar): made tests to check if the method was counting right #54" />
+    <MESSAGE value="refactor(minimumspanning): adjust the code to be able to make tests #63" />
+    <MESSAGE value="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62" />
+    <MESSAGE value="refactor(project): put all algorithms from phase 1 into a directory" />
+    <MESSAGE value="feat(jumpsearch): made code for jump search" />
+    <MESSAGE value="test(jumpsearch): add jump search tests #69" />
+    <MESSAGE value="feat(findmissingnumber): made the class FMN" />
+    <MESSAGE value="test(findmissingnumber): made tests for find missing number class #70" />
+    <MESSAGE value="feat(fibonaccisearch): add fibonacci search code #3" />
+    <MESSAGE value="test(fibonaccisearch): create tests to fibonacci search #71" />
+    <MESSAGE value="feat(selectsort): made select sort code #4" />
+    <MESSAGE value="test(selectsort): made tests for select sort #72" />
+    <option name="LAST_COMMIT_MESSAGE" value="test(selectsort): made tests for select sort #72" />
   </component>
 </project>
