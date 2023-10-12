@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_09_2023_17_05_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/prima-0.0.1.gem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="refactor(project): put all algorithms from phase 1 into a directory">
+      <change afterPath="$PROJECT_DIR$/lib/rubyAlgorithmsTwo/searchingAlgorithms/JumpSearch.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubyAlgorithmsTwo/searchingAlgorithms/fibonacci_search.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubyAlgorithmsTwo/searchingAlgorithms/find_missing_number.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/lib/jumpSearch_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/ArrayProblems/LargestElement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/ArrayProblems/LargestElement.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/ArrayProblems/Reorder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/ArrayProblems/Reorder.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/DateProblems/CalculateAge.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/DateProblems/CalculateAge.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/DateProblems/FindFuture.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/DateProblems/FindFuture.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/GreedyAlgorithms/MaximizeArray.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/GreedyAlgorithms/MaximizeArray.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/GreedyAlgorithms/MinimumProductSubset.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/GreedyAlgorithms/MinimumProductSubset.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/GreedyAlgorithms/MinimumSpanning.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/GreedyAlgorithms/MinimumSpanning.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/GreedyAlgorithms/MinimumSum.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/GreedyAlgorithms/MinimumSum.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/GreedyAlgorithms/Sum3Stack.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/GreedyAlgorithms/Sum3Stack.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/SearchingAlgorithms/BinarySearch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/SearchingAlgorithms/BinarySearch.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/SearchingAlgorithms/LinearSearch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/SearchingAlgorithms/LinearSearch.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/SearchingAlgorithms/LinearSearch2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/SearchingAlgorithms/LinearSearch2.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/SortingAlgorithms/BubbleSort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/SortingAlgorithms/BubbleSort.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/SortingAlgorithms/CountingSort.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/SortingAlgorithms/CountingSort.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/StringProblems/CountChar.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/StringProblems/CountChar.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rubyAlgorithims/StringProblems/StringPangram.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubyAlgorithms/StringProblems/StringPangram.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Ruby Class" />
         <option value="Ruby File" />
       </list>
     </option>
@@ -58,24 +77,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vitor/Documentos/Git/Ruby&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/vitor/Documentos/Git/Ruby/spec/lib/agl1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/lib/agl1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Linguagem/rubyAlgorithims/SortingAlgorithms" />
       <recent name="$PROJECT_DIR$/Linguagem/rubyAlgorithims/SearchingAlgorithms" />
@@ -249,6 +271,7 @@
       <workItem from="1696353975011" duration="900000" />
       <workItem from="1696408016942" duration="50000" />
       <workItem from="1696588567134" duration="17521000" />
+      <workItem from="1697132896885" duration="3879000" />
     </task>
     <task id="LOCAL-00001" summary="refactor(Linguagem): chaging names to camel case">
       <option name="closed" value="true" />
@@ -546,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696612638301</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="refactor(project): put all algorithms from phase 1 into a directory">
+      <option name="closed" value="true" />
+      <created>1697133243064</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697133243065</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test(Hero): creating tests to see if the hero has a sword and if he has more than 1000 hp" />
     <MESSAGE value="feat(factorial): adding a factorial class to train rspec" />
     <MESSAGE value="test(factorial): creating tests to factorial and learning some syntax of rspec" />
     <MESSAGE value="feat(heroproject): creating a rails project and implementing rspec to do tests" />
@@ -589,6 +619,7 @@
     <MESSAGE value="test(countchar): made tests to check if the method was counting right #54" />
     <MESSAGE value="refactor(minimumspanning): adjust the code to be able to make tests #63" />
     <MESSAGE value="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62" />
-    <option name="LAST_COMMIT_MESSAGE" value="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62" />
+    <MESSAGE value="refactor(project): put all algorithms from phase 1 into a directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(project): put all algorithms from phase 1 into a directory" />
   </component>
 </project>
