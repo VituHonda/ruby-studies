@@ -20,21 +20,9 @@ describe MinimizeCashFlow do
     ]
   }
 
-  it '' do
+  it 'return the optimized transactions between people represented on the graph given' do
     result = function.flow(graph1, vertices1)
     expect(Set.new(result)).to eq(resp)
   end
 
 end
-
-
-# def self.main
-#   # graph[i][j] indicates the amount that person i needs to pay person j
-#   graph = [[0, 1000, 2000],
-#            [0, 0, 5000],
-#            [0, 0, 0]]
-#
-#   # Print the solution
-#   min_cash_flow(graph)
-# end
-# end
