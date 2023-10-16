@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="test(selectsort): made tests for select sort #72">
-      <change afterPath="$PROJECT_DIR$/lib/rubyAlgorithmsTwo/sortingAlgorithms/MergeSort.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/lib/mergeSort_spec.rb" afterDir="false" />
+    <list default="true" id="d9f52a20-2c6a-46b4-a3fe-44af18dcfe47" name="Changes" comment="refactor(jobsequencing): removed blank lines on code">
+      <change afterPath="$PROJECT_DIR$/lib/rubyAlgorithmsTwo/dateProblems/DayWeek.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/lib/dayWeek_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,207 +275,8 @@
       <workItem from="1696588567134" duration="17521000" />
       <workItem from="1697132896885" duration="8402000" />
       <workItem from="1697193251220" duration="12000" />
-      <workItem from="1697193321010" duration="3013000" />
-    </task>
-    <task id="LOCAL-00001" summary="refactor(Linguagem): chaging names to camel case">
-      <option name="closed" value="true" />
-      <created>1695748330766</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1695748330766</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat(minsum): adding min sum algorithm">
-      <option name="closed" value="true" />
-      <created>1695749064444</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1695749064444</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat(maxarraysum): adding max array sum algorithm">
-      <option name="closed" value="true" />
-      <created>1695750329611</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1695750329611</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat(minproductsubset): adding min product subset algorithm">
-      <option name="closed" value="true" />
-      <created>1695751186571</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1695751186571</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat(sum3stack): adding sum 3 first number of a stack algorithm">
-      <option name="closed" value="true" />
-      <created>1695752052322</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1695752052322</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat(stringpangram): adding string pangram algorithm">
-      <option name="closed" value="true" />
-      <created>1695756392600</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1695756392600</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat(countchar): adding count char algorithm">
-      <option name="closed" value="true" />
-      <created>1695757525288</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1695757525288</updated>
-    </task>
-    <task id="LOCAL-00008" summary="feat(last3number): adding largest 3 numbers algorithm">
-      <option name="closed" value="true" />
-      <created>1695757981407</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1695757981407</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat(reorderktimes): adding reorder k amount of times algorithm">
-      <option name="closed" value="true" />
-      <created>1695759341812</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1695759341812</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat(Hero): adding class hero with constructor">
-      <option name="closed" value="true" />
-      <created>1695837965880</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1695837965880</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test(Hero): creating tests to see if the hero has a sword and if he has more than 1000 hp">
-      <option name="closed" value="true" />
-      <created>1695838000179</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1695838000179</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat(factorial): adding a factorial class to train rspec">
-      <option name="closed" value="true" />
-      <created>1695838024043</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1695838024043</updated>
-    </task>
-    <task id="LOCAL-00013" summary="test(factorial): creating tests to factorial and learning some syntax of rspec">
-      <option name="closed" value="true" />
-      <created>1695838052688</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1695838052688</updated>
-    </task>
-    <task id="LOCAL-00014" summary="feat(heroproject): creating a rails project and implementing rspec to do tests">
-      <option name="closed" value="true" />
-      <created>1695840956813</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1695840956813</updated>
-    </task>
-    <task id="LOCAL-00015" summary="feat(heroproject): creating a rails project and implementing rspec to do tests">
-      <option name="closed" value="true" />
-      <created>1695843418547</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1695843418547</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat(heroproject): creating tests">
-      <option name="closed" value="true" />
-      <created>1695843489948</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1695843489948</updated>
-    </task>
-    <task id="LOCAL-00017" summary="deleting tests">
-      <option name="closed" value="true" />
-      <created>1695843977504</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1695843977504</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat(prima): criando primeira gem">
-      <option name="closed" value="true" />
-      <created>1695844991707</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1695844991707</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat(prima): criando primeira gem">
-      <option name="closed" value="true" />
-      <created>1695845108452</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1695845108452</updated>
-    </task>
-    <task id="LOCAL-00020" summary="refator(binarysearch): altered the code to be able to make tests and to correct a logic problem">
-      <option name="closed" value="true" />
-      <created>1696594868906</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1696594868906</updated>
-    </task>
-    <task id="LOCAL-00021" summary="test(binarysearch): addedd tests for the binarysearch class #50">
-      <option name="closed" value="true" />
-      <created>1696594922215</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1696594922215</updated>
-    </task>
-    <task id="LOCAL-00022" summary="refactor(linearsearch): adjust code to be able to make tests #49">
-      <option name="closed" value="true" />
-      <created>1696597009180</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1696597009180</updated>
-    </task>
-    <task id="LOCAL-00023" summary="test(linearsearch): added tests for linear search #48">
-      <option name="closed" value="true" />
-      <created>1696597029911</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1696597029911</updated>
-    </task>
-    <task id="LOCAL-00024" summary="refactor(linearsearch2): adjust code to be able to make tests #59">
-      <option name="closed" value="true" />
-      <created>1696597731231</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1696597731231</updated>
-    </task>
-    <task id="LOCAL-00025" summary="test(linearsearch2): made tests for linearsearch2">
-      <option name="closed" value="true" />
-      <created>1696597752748</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1696597752748</updated>
+      <workItem from="1697193321010" duration="18275000" />
+      <workItem from="1697475703659" duration="4740000" />
     </task>
     <task id="LOCAL-00026" summary="refactor(countingsort): adjust code to be able to make tests #61">
       <option name="closed" value="true" />
@@ -645,7 +446,231 @@
       <option name="project" value="LOCAL" />
       <updated>1697141597360</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="feat(mergesort): made merge sort class #5">
+      <option name="closed" value="true" />
+      <created>1697200460697</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697200460697</updated>
+    </task>
+    <task id="LOCAL-00048" summary="test(mergesort): created tests for merge sort #74">
+      <option name="closed" value="true" />
+      <created>1697200479764</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697200479764</updated>
+    </task>
+    <task id="LOCAL-00049" summary="refactor(project): changed name of algorithms folder to algorithms one">
+      <option name="closed" value="true" />
+      <created>1697200649757</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697200649757</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat(quicksort): made quick sort class for int lists #6">
+      <option name="closed" value="true" />
+      <created>1697203992156</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697203992156</updated>
+    </task>
+    <task id="LOCAL-00051" summary="test(quicksort): made some simple quick sort tests #75">
+      <option name="closed" value="true" />
+      <created>1697204034967</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697204034967</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat(minimumsumproduct):made the class for MSP #7">
+      <option name="closed" value="true" />
+      <created>1697218821959</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697218821959</updated>
+    </task>
+    <task id="LOCAL-00053" summary="test(minimumsumProduct): made tests for MSP #76">
+      <option name="closed" value="true" />
+      <created>1697218875455</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1697218875455</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat(jobsequencing): made job sequencing class #8">
+      <option name="closed" value="true" />
+      <created>1697220043756</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1697220043756</updated>
+    </task>
+    <task id="LOCAL-00055" summary="test(jobsequencing): made tests for job sequencing #77">
+      <option name="closed" value="true" />
+      <created>1697220067395</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1697220067395</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat(fractionalknapsack): implemented Fractional knapsack class #9">
+      <option name="closed" value="true" />
+      <created>1697280202705</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1697280202705</updated>
+    </task>
+    <task id="LOCAL-00057" summary="test(fractionalknapsack): made tests for fractional knapsack class #79">
+      <option name="closed" value="true" />
+      <created>1697280224404</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1697280224404</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat(papercut): implemented papercut class #10">
+      <option name="closed" value="true" />
+      <created>1697280648007</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1697280648007</updated>
+    </task>
+    <task id="LOCAL-00059" summary="test(papercut): made tests for paper cut class #80">
+      <option name="closed" value="true" />
+      <created>1697280668003</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1697280668003</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat(minimizecashflow): implemented minimize cash flow class #11">
+      <option name="closed" value="true" />
+      <created>1697284901503</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1697284901503</updated>
+    </task>
+    <task id="LOCAL-00061" summary="test(minimizecashflow): made tests for MCF class #81">
+      <option name="closed" value="true" />
+      <created>1697284957074</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1697284957074</updated>
+    </task>
+    <task id="LOCAL-00062" summary="refactor(minimizecashflow): added description to the test">
+      <option name="closed" value="true" />
+      <created>1697285248144</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1697285248144</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat(commoncharacters): implemented common characters class #12">
+      <option name="closed" value="true" />
+      <created>1697285439389</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1697285439389</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test(commoncharacters): made test with 2 differente string lists #82">
+      <option name="closed" value="true" />
+      <created>1697285548084</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1697285548084</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat(groupwords): implementehed group words class #13">
+      <option name="closed" value="true" />
+      <created>1697476918661</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1697476918662</updated>
+    </task>
+    <task id="LOCAL-00066" summary="test(groupwords):made tests for group words #84">
+      <option name="closed" value="true" />
+      <created>1697476949180</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1697476949180</updated>
+    </task>
+    <task id="LOCAL-00067" summary="refactor(groupwords): add description to tests">
+      <option name="closed" value="true" />
+      <created>1697477383175</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1697477383175</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat(reorderindex): implemented reorder index class #14">
+      <option name="closed" value="true" />
+      <created>1697478441611</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478441611</updated>
+    </task>
+    <task id="LOCAL-00069" summary="test(reorderindex): made tests for reorder index #85">
+      <option name="closed" value="true" />
+      <created>1697478463716</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478463716</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat(positivenegative): implemented positive negative class #15">
+      <option name="closed" value="true" />
+      <created>1697479094765</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1697479094765</updated>
+    </task>
+    <task id="LOCAL-00071" summary="test(positivenegative):implemented one test #86">
+      <option name="closed" value="true" />
+      <created>1697479150617</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1697479150617</updated>
+    </task>
+    <task id="LOCAL-00072" summary="feat(summinute): implemented sum minute class #16">
+      <option name="closed" value="true" />
+      <created>1697479989489</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1697479989490</updated>
+    </task>
+    <task id="LOCAL-00073" summary="test(summinute):made tests for sum minute class #87">
+      <option name="closed" value="true" />
+      <created>1697480033510</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1697480033510</updated>
+    </task>
+    <task id="LOCAL-00074" summary="refactor(jobsequencing): removed blank lines on code">
+      <option name="closed" value="true" />
+      <created>1697480069896</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1697480069896</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,31 +688,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor(linearsearch): adjust code to be able to make tests #49" />
-    <MESSAGE value="test(linearsearch): added tests for linear search #48" />
-    <MESSAGE value="refactor(linearsearch2): adjust code to be able to make tests #59" />
-    <MESSAGE value="test(linearsearch2): made tests for linearsearch2" />
-    <MESSAGE value="refactor(countingsort): adjust code to be able to make tests #61" />
-    <MESSAGE value="test(countingsort): added tests for counting sort #60" />
-    <MESSAGE value="refactor(stringpangram): adjusted code to be able to make tests #57" />
-    <MESSAGE value="test(stringpangram): made tests for the string pangram #57" />
-    <MESSAGE value="refactor(findfuture): adjust code to be able to make tests #65" />
-    <MESSAGE value="test(findfuture): made tests for the class #64" />
-    <MESSAGE value="refactor(bubblesort): adjust code to be able to make tests #53" />
-    <MESSAGE value="test(bubblesort): added tests to see if the class respond well to right parameters and wrong ones #52" />
-    <MESSAGE value="refactor(countchar): adjust code to be possible to make tests #55" />
-    <MESSAGE value="test(countchar): made tests to check if the method was counting right #54" />
-    <MESSAGE value="refactor(minimumspanning): adjust the code to be able to make tests #63" />
-    <MESSAGE value="test(minimumspanning): made a test to calculate the shortest routes from the edges of a graph #62" />
-    <MESSAGE value="refactor(project): put all algorithms from phase 1 into a directory" />
-    <MESSAGE value="feat(jumpsearch): made code for jump search" />
-    <MESSAGE value="test(jumpsearch): add jump search tests #69" />
-    <MESSAGE value="feat(findmissingnumber): made the class FMN" />
-    <MESSAGE value="test(findmissingnumber): made tests for find missing number class #70" />
-    <MESSAGE value="feat(fibonaccisearch): add fibonacci search code #3" />
-    <MESSAGE value="test(fibonaccisearch): create tests to fibonacci search #71" />
-    <MESSAGE value="feat(selectsort): made select sort code #4" />
-    <MESSAGE value="test(selectsort): made tests for select sort #72" />
-    <option name="LAST_COMMIT_MESSAGE" value="test(selectsort): made tests for select sort #72" />
+    <MESSAGE value="feat(quicksort): made quick sort class for int lists #6" />
+    <MESSAGE value="test(quicksort): made some simple quick sort tests #75" />
+    <MESSAGE value="feat(minimumsumproduct):made the class for MSP #7" />
+    <MESSAGE value="test(minimumsumProduct): made tests for MSP #76" />
+    <MESSAGE value="feat(jobsequencing): made job sequencing class #8" />
+    <MESSAGE value="test(jobsequencing): made tests for job sequencing #77" />
+    <MESSAGE value="feat(fractionalknapsack): implemented Fractional knapsack class #9" />
+    <MESSAGE value="test(fractionalknapsack): made tests for fractional knapsack class #79" />
+    <MESSAGE value="feat(papercut): implemented papercut class #10" />
+    <MESSAGE value="test(papercut): made tests for paper cut class #80" />
+    <MESSAGE value="feat(minimizecashflow): implemented minimize cash flow class #11" />
+    <MESSAGE value="test(minimizecashflow): made tests for MCF class #81" />
+    <MESSAGE value="refactor(minimizecashflow): added description to the test" />
+    <MESSAGE value="feat(commoncharacters): implemented common characters class #12" />
+    <MESSAGE value="test(commoncharacters): made test with 2 differente string lists #82" />
+    <MESSAGE value="feat(groupwords): implementehed group words class #13" />
+    <MESSAGE value="test(groupwords):made tests for group words #84" />
+    <MESSAGE value="refactor(groupwords): add description to tests" />
+    <MESSAGE value="feat(reorderindex): implemented reorder index class #14" />
+    <MESSAGE value="test(reorderindex): made tests for reorder index #85" />
+    <MESSAGE value="feat(positivenegative): implemented positive negative class #15" />
+    <MESSAGE value="test(positivenegative):implemented one test #86" />
+    <MESSAGE value="feat(summinute): implemented sum minute class #16" />
+    <MESSAGE value="test(summinute):made tests for sum minute class #87" />
+    <MESSAGE value="refactor(jobsequencing): removed blank lines on code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(jobsequencing): removed blank lines on code" />
   </component>
 </project>
