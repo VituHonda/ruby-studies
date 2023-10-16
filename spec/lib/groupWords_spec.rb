@@ -11,7 +11,7 @@ describe GroupWords do
   let(:list2) {["ruby", "java", "bca", "cab", "bac", "acr", "car", "arc"]}
 
 
-  it '' do
+  it 'return groups of words with the same set characters' do
     expect(group.same(list1)).to eq(
 
                                    +"ablms" => [12, 15],
