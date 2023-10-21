@@ -8,11 +8,10 @@
 class RunningSumOf1DayArray
   attr_accessor :newList
   def sum(list)
-    temp = 0
     newList = []
-    list.each do |num|
-      temp += num
-      newList << temp
+    newList[0] = list[0]
+    for i in 1..list.length-1
+      newList[i] = list[i] + newList[i-1]
     end
     return newList
   end
